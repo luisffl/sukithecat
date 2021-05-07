@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <generator>RSS Builder by B!Soft</generator>
+    <title>Las noticias </title>
+    <link>file:///C:/Users/luisp/OneDrive/Escritorio/PAGINA%20DEFINITIVA/buena.html</link>
+    <description>Aqui irá el contenido del rss</description>
+    <language>es</language>
+    <managingEditor>luisffl1998@gmail.com</managingEditor>
+    <copyright>Luis y Lucia</copyright>
+    <item>
+      <title>REDES SOCIALES </title>
+      <pubDate>Mon, 3 May 2021 14:42:18 +0200</pubDate>
+      <link>https://www.google.es/</link>
+      <comments>LUIS</comments>
+      <description><![CDATA[sII QUEDAS MUCHO CONMIGO O QUE ]]></description>
+    </item>
+  </channel>
+</rss>

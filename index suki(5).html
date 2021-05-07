@@ -1,0 +1,348 @@
+<!DOCTYPE html5> 
+<html lang="es">
+	<head>
+		<meta name="description" content="Ejemplo de HTML5">
+		<meta name="keywords" content="HTML5, CSS3">
+		<title>Suki el gato</title>
+		<link rel="shortcut icon" href="https://www.seekfancy.com/wp-content/uploads/2018/04/cropped-catpaw.png" type="image/x-icon">
+		<style>
+		
+	 section, footer, aside,  article, figure, figcaption, hgroup {
+				display: block;
+			}
+			body {
+				margin: 2px;
+				text-align: center;
+				background: url("https://images.wallpaperscraft.com/image/leaves_bw_dark_136872_3415x3415.jpg") black;
+				background-repeat: no-repeat;
+				background-size: 200%;
+			} 
+			#agrupar {
+				width: auto;
+				margin: 15px auto;
+				text-align: left;
+			}
+			#cabecera {
+				background: transparent;
+				border: 0;
+				
+				
+			
+				overflow: hidden;
+				color: black;
+				font-size: 50px;
+				text-transform: uppercase;
+				text-align: center;
+				text-shadow: -1px 0 #ff9c75, 0 1px #ff9c75, 1px 0 #ff9c75, 0 -1px #ff9c75;
+			
+			}
+		
+			ul,
+        ol {
+            list-style: none;
+        }
+
+			#link {
+				color: black
+			}
+			#menu {
+				
+				padding: auto;
+				align-items: center;
+				margin-top:-150px;
+				background-color: green;
+				float:right;
+				max-height:300px;
+				border-radius: 20px 0 0 20px;
+				
+				
+			}
+		
+			
+				#menu li a {	
+					display: block;
+					padding: 2px 30px 2px 15px;
+					overflow: hidden;
+					color: white;
+					background-color: transparent;
+					border: 0;
+					font-family: Arial black;
+					font-size: 18px;
+					text-transform: uppercase;
+					text-decoration: none;
+					text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+				}
+
+				#menu li ul a {
+					text-align: center;
+				
+					margin-right:40px;
+				}
+			
+				#menu li a:hover{
+					margin:auto;
+					width:fit-content;
+					border-radius: 10px;
+					background-color: peachpuff;
+					transition:0.5s 0s all;
+					color: #ff9c75;
+					text-shadow: none;
+				
+				}
+		
+		
+        #menu li ul {
+            display: none;
+           
+
+
+        }
+		
+
+        #menu li:hover > ul {
+            display:block;
+		
+        }
+			
+
+       
+			#seccion {
+				width: 100% auto;
+				height: auto;
+				margin: 20px auto;
+				background: black;
+				opacity: 0.9;
+				color: white;
+				font-family: Arial;
+				text-align: justify;
+				padding: 30px;
+				margin-right: 30px;
+				margin-left: 30px;
+			}
+				h1.a {
+					border-left: 6px solid #ff9c75;
+					background-color: transparent;
+					font-family: Arial Black;
+					text-transform: uppercase;
+					color: #ff9c75;
+					padding: 10px;
+				}
+			#pie {
+				clear: both;
+				color: white;
+				text-align: center;
+				padding: 20px;
+				border-top: 1px solid #ff9c75;
+			}
+			.link2 {
+				color:white;
+				text-decoration: none;
+			}
+			.link2:hover {
+					color: gray;
+			}
+			time {
+				color: #999999;
+			} 
+			.polaroid1 {
+				background-color: #ff9c75;
+				border:3px solid black;
+				border-radius:15px;
+				height: 310px;
+				width: 200px;
+			
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+				padding: 15px 15px 20px 15px;
+				/*margin-bottom: 30px;
+				margin-top: 30px;*/
+				display: block;
+			
+				margin-right: auto;
+				position: relative;
+			}
+			.polaroid2 {
+				background-color: #ff9c75;
+				border:3px solid black;
+				border-radius:15px;
+				height: 310px;
+				width: 200px;
+	
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+				padding: 15px 15px 20px 15px;
+				/*margin-bottom: 30px;
+				margin-top: -315px;*/
+			display: block;
+				margin-left: auto;
+				margin-right: auto;
+				position: relative;
+			}
+			.polaroid3 {
+				background-color: #ff9c75;
+				border:3px solid black;
+				border-radius:15px;
+				height: 310px;
+				width: 200px;
+				margin-left:auto;
+			
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+				padding: 15px 15px 20px 15px;
+				/*margin-bottom: 30px;
+				margin-top: -315px;*/
+				display: block;
+				
+				
+			}
+			
+			#scroleables{
+				align-self:center;
+				max-height: 300px;
+				display: inline-flex;
+				width:100%;
+			}
+			.container {
+				
+				height: 80px;
+				padding: 0 15px 0 0;
+				margin-top:20px;
+				font-size: 18px;
+				font-family: Arial;
+				text-align: center;
+				overflow: auto;
+				color: black
+			
+			}.container::-webkit-scrollbar{
+				width: 90px;
+				background:red;
+				
+			}
+
+			.container::-webkit-scrollbar-thumb{
+				width: 90px;
+				background:red;
+				border-radius:5px;
+			}
+			.img {
+				width: 100%;
+				height: auto;
+			}
+				#img1 {
+					max-width: 100%;
+					width: 20%;
+					height: auto;
+					
+				}
+				#img2 {
+					
+					height: 250px;
+					margin-bottom: 22px;
+				}
+				#img4 {
+					height: 200px;
+					width: 200px;
+				}
+				#img5 {
+					height: 200px;
+					width: 200px;
+					
+				}
+				#img6 {
+					height: 200px;
+					width: 200px;
+					
+				}
+			.video {
+					display: flex;
+					justify-content: left;
+					align-items: center;
+					margin-top: -270px;
+					margin-left: 117px;
+					border: 0;
+			}
+
+
+			.video embed{
+				margin-top:0;
+				
+				box-shadow: 1px 3px 1px rgb(209, 105, 7);
+			
+			}
+		</style>
+	</head>
+	<body>
+		
+			<header id="cabecera">
+				<a id="link" href="https://www.instagram.com/sukiicat/" target="_blank"><h1>Soy Suki</h1>
+			</header>
+			<ul id="menu">
+				<li ><a>Menu</a> 
+				<ul>
+				
+					<li><a href="juguetes.html" target="_blank">Juguetes</a></li>
+					<li><a href="REDES SOCIALES.html" target="_blank">Redes sociales</a></li>
+					<li><a href="TOUR.html" target="_blank">Tour</a></li>
+				</ul>
+			</li>
+		</ul>
+			<div id="agrupar">
+			<section id="seccion">
+				<h1 class="a">Pero... ¿qué soy?</h1>
+					<p>La respuesta es: un gato de bengala.<br>Para todos aquellos que no hayáis conocido a uno como yo, </p>
+					<p>Lorem ipsum dolor sit amet consectetur, adipiscing elit sagittis libero, penatibus pellentesque etiam nunc. Etiam laoreet dapibus orci imperdiet dictum metus diam a curae, est class sollicitudin consequat erat dignissim sed fames, donec mi fermentum turpis ut tempor per pellentesque. Litora vivamus torquent dictumst faucibus sociis tellus nulla nunc semper, gravida pulvinar a pellentesque ultrices diam duis ut, sollicitudin molestie dictum pretium ad per risus natoque. Ornare platea ligula aptent porta porttitor eleifend vel auctor faucibus, torquent rutrum conubia elementum vestibulum imperdiet tristique augue fusce, metus dapibus sed lacinia curabitur enim semper sem. Massa per tellus lobortis imperdiet netus risus accumsan ornare, velit lacinia penatibus venenatis magnis leo platea fusce, aliquet maecenas turpis felis quam tortor luctus. Volutpat ad ullamcorper semper cras arcu risus, id ligula commodo lobortis duis quam, suscipit habitasse parturient egestas sapien.</p>
+					<div class="img">
+						<img id="img1" src="https://registeredbengals.com/uploads/3/4/9/2/34928118/shutterstock-1080078314_1_orig.jpg"></a>
+					</div>
+					<br><h1 class="a">Mi mundo</h1>
+					<p>Vivo en una casa...</p>
+					<p>Lorem ipsum dolor sit amet consectetur, adipiscing elit sagittis libero, penatibus pellentesque etiam nunc. Etiam laoreet dapibus orci imperdiet dictum metus diam a curae, est class sollicitudin consequat erat dignissim sed fames, donec mi fermentum turpis ut tempor per pellentesque. Litora vivamus torquent dictumst faucibus sociis tellus nulla nunc semper, gravida pulvinar a pellentesque ultrices diam duis ut, sollicitudin molestie dictum pretium ad per risus natoque.
+
+						Ornare platea ligula aptent porta porttitor eleifend vel auctor faucibus, torquent rutrum conubia elementum vestibulum imperdiet tristique augue fusce, metus dapibus sed lacinia curabitur enim semper sem. Massa per tellus lobortis imperdiet netus risus accumsan ornare, velit lacinia penatibus venenatis magnis leo platea fusce, aliquet maecenas turpis felis quam tortor luctus. Volutpat ad ullamcorper semper cras arcu risus, id ligula commodo lobortis duis quam, suscipit habitasse parturient egestas sapien.</p>
+					<br><div class="img">
+						<img id="img2" src="https://i.pinimg.com/originals/67/5b/83/675b83429c004d723f56100282b023bc.png"></a>
+					</div>
+					<div class="video">
+					
+					<!--<embed src="Cat Goes Hiking and Mushroom Hunting.mp4"   width="400px" height="230px" allowfullscreen>-->
+					<video controls  width="400px" height="230px" poster="portada-video.jpg">
+					<source src="videogato.mp4" type="video/mp4"  />
+				</video>
+						
+					</div>
+					<br><h1 class="a">Estampitas</h1>
+					<p>Algunos de mis recuerdos más divertidos...</p>
+			<div id="scroleables">
+				<div class="polaroid1">
+					<div class="img">
+						<a href="https://pin.it/7G2AvaN" target="_blank"><img id="img4" src="https://static.boredpanda.com/blog/wp-content/uploads/2017/09/adventures-suki-the-cat-canada-105-59b2a13fba22c__700.gif"></a>
+					</div>
+					<div class="container"> AMÉRICA: Suki en uno de sus viajes por Estados Unidos. En concreto, esto es un pequeño paseo con canoa 
+						por uno de los lagos del famoso parque natural de Utah.
+					</div>
+				</div>
+				<div class="polaroid2">
+					<div class="img">
+						<a href="europa.html" target="_blank"><img id="img5" src="https://postalzin.files.wordpress.com/2016/07/world-traveler-cat-funny-cute-gif6.gif?w=245" ></a>
+					</div>
+					<div class="container">EUROPA: en el norte hacía mucho frío, pero Suki se lo pasó genial. Sin embargo en el sur lo pasé genial e hice muchos amigos 
+						en la Torre de Argentina, en roma. 
+					</div>
+				</div>
+				<div class="polaroid3">
+					<div class="img">
+						<a href="https://www.youtube.com/user/LE7ELSOfficial" target="_blank"><img id="img6" src="https://i.pinimg.com/originals/1b/11/5f/1b115f36ff58d9e118c062a8193f9a28.gif"></a>
+					</div>
+					<div class="container">ASIA: ver llover en un estanque japonés fue toda una experiencia para Suki.Era una lluvia 
+						hermosa y no podia dejar de mirar las carpas nadando bajo la superficie del estanque. 
+					</div>
+				</div>
+			</div>
+			</section>
+			<footer id="pie">
+				<a class="link2" href="https://sukicat.com/#contact"><h2>Contacto</h2><br>
+				<a class="link2" href="https://www.etsy.com/shop/sukiicat/"><h2>Tienda</h2><br>
+				<a class="link2" href="https://www.instagram.com/sukiicat/"><h2>Redes sociales</h2></a>
+				<br><h5>Creada por Lucía Fernández Pérez y Luis Fernández López<br>
+				<h5 style="color: #ff9c75";>Derechos Reservados &copy; 2020-2021</h5>
+			</footer>
+		</div>
+	</body>
+</html>
